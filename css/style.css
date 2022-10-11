@@ -1,11 +1,10 @@
-.nav-brand{
-  color: burlywood;
-  margin:auto;
-  
-}
 
 .carousel-inner img {
-  margin: auto;
+  margin: 25px;
+  
+}
+.nav-item{
+  margin-left: 25px;
 }
 
   .gradient-custom-4 {
@@ -26,4 +25,43 @@
     background: -webkit-linear-gradient(45deg, rgba(15, 213, 121, 0.911), rgba(2, 5, 172, 0.839) 100%);
   }
     
-    
+  
+  html { 
+ 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size:cover;
+  }
+
+.bg-image{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 90%;
+}
+.col-md, .points{
+  position: relative;
+  font-style: bold;
+  background: rgba(0, 0, 0, 0.422); 
+  color: rgb(239, 243, 243);
+}
+h1{
+  text-align: center;
+}
+.logo-home{
+  margin-left: 50%;
+}
+
+.product-bg{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 90%;
+}
+.checkout-bg{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 90%;
+}
