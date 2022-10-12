@@ -24,3 +24,4 @@ I added some custom background to make it asthetic and still simple.
 
 Checkout page: This is the checkout page for users wanting to checkout. It is a simple bootstrap checkout form with some custom styling. It also includes forms to submit you name, address and payments.
 It has a display of the cart and the items with their prices.
+![manang](https://user-images.githubusercontent.com/97621619/195360957-94bfa890-f6c9-46b6-b2f0-657525def73d.jpg)
