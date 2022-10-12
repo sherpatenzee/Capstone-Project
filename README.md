@@ -1,4 +1,4 @@
-#capstone-project.
+Capstone-project.
 
 This is my capstone project for week 2 of Pluraslight Web develpoment course.
 
