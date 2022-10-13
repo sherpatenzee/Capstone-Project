@@ -1,137 +1,149 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Home Page</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/style.css">
-</head>
-
-  <body>
-  <div class="bg-image" style="background-image: url('images/bharath-g-s-aLGiPJ4XRO4-unsplash.jpg');
-    height: 100%">
-  
+  <title>Document</title>
+  <link
+  href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+  rel="stylesheet"
+  integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+  crossorigin="anonymous"/>
+<link rel="stylesheet" href="css/newstyle.css"/>
+<header>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-md fixed-top navbar-scroll">
     <div class="container-fluid">
-      <a class="logo-home" href="index.html">
-        <img src="images/logo_200x200.png" width="80" height="80" alt="logo image">
-      </a>
-      <h1><b>The Himalayan Society</b></h1>
-
-
-      <nav class="p-3 text-bg-dark">
-        <nav class="navbar navbar-expand-md bg-dark">
-
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+      
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
             aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active text-light" aria-current="page" href="index.html">
-                  <h4>Home</h4>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active text-light" aria-current="page" href="product.html">
-                  <h4>Products</h4>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active text-light" aria-current="page" href="contact.html">
-                  <h4>Contact</h4>
-                </a>
-              </li>
-            </ul>
-
-            <div>
-              <a href="login.html" class="btn btn-warning btn-sm active" role="button" aria-pressed="true">Log In</a>
-              <a href="registration.html" class="btn btn-warning btn-sm active m-2" role="button"
-                aria-pressed="true">Sign Up</a>
-            </div>
-
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            </form>
-
+        <ul class="navbar-nav me-auto">
+          
+          <li class="nav-item">
+            <a class="nav-link" href="index.html"><h5>Home</h5></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="product.html"><h5>Products</h5></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html"><h5>Contact</h5></a>
+          </li>
+        </ul>
+        <ul class="navbar-nav ml-auto" >
+          <li class="nav-item" >
+            <a class="nav-link text-white" href="login.html"><h5>Log in</h5></a>
+          </li>
+          <li class="nav-item" >
+            <a class="nav-link" href="registration.html"><h5>Sign Up</h5></a>
+          </li>
+         
             <a href="checkout.html" class="btn" role="button" aria-pressed="true"><img src="images/cart.png"
-                alt="checkout" height="40"></a>
-          </div>
+              alt="checkout" height="40"></a>
+       
 
-
-
-        </nav>
-      </nav>
-     
-  </div>
-   
- 
-
-
-
-  <div class="new">
-
-    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="images/puppets.jpeg" class="d-block w-100" alt="1st image">
-        </div>
-        <div class="carousel-item">
-          <img src="images/shaouraav-shreshtha-_P5SJb7WJQY-unsplash.jpg" class="d-block w-100" alt="2nd image">
-        </div>
-        <div class="carousel-item">
-          <img src="images/nepal.jpeg" class="d-block w-100" alt="3rd image">
-        </div>
-        <div class="carousel-item">
-          <img src="images/rohan-reddy-Y3u0xBXhGtY-unsplash.jpg" class="d-block w-100" alt="4th image">
-        </div>
-        <div class="carousel-item">
-          <img src="images/tim-van-kempen-mpYKQK3GzSE-unsplash.jpg" class="d-block w-100" alt="5th image">
-        </div>
-
+        
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
-        data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden"></span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
-        data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden"></span>
-      </button>
     </div>
+  </nav>
+  <!-- Navbar -->
+
+  <!--Section: Design Block-->
+  <section>
+    <div id="intro" class="bg-image" style="
+        background-image: url('images/depositphotos_235289568-stock-photo-colorful-carved-wooden-masks-handicrafts.jpeg');
+        height: 100vh;
+      ">
+      <div class="mask" style="background-color: rgba(0, 0, 0, 0.2);">
+        <div class="container d-flex justify-content-center align-items-center h-100">
+          <div class="row-1 align-items-center">
+            <div class="col-12">
+              <h1 class="mb-0 text-white display-1 text-center p-5;">The Himalayan Society</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--Section: Design Block-->
+</header>
+
+ 
+</head>
+
+
+<body>
+
+  <div class="bg-image" style="background-image: url('images/matt-palmer-MDrBTkUebW8-unsplash.jpg');
+    height: 100%" >
+  <div class="container">
+  
 
   </div>
-  <hr>
+  
   <div class="container marketing">
 
    
-    <div class="row text-center">
-      <h2 class="fw-normal text-center"><b><u> Featured Products</u></b></h2>
+    <div class="row text-center p-5">
+      <h2 class="fw-normal text-white p-4"><b><u> Featured Products</u></b></h2>
       <div class="col-lg-4">
-        <img src="images/nepalese-necklace-shutterstock_1177819729_89e803332f.jpeg" alt="necklace" height="150" width="150"
+        <img src="images/nepalese-necklace-shutterstock_1177819729_89e803332f.jpeg" alt="necklace" height="250" width="250"
           style="border-radius: 50%">
-        <h6 class="fw-normal">Turquoise And Gem Necklace</h6>
+        <h6 class="fw-normal text-white">Turquoise And Gem Necklace</h6>
 
         <p><a class="btn btn-secondary" href="product.html">View details »</a></p>
       </div>
       <div class="col-lg-4">
-        <img src="images/earrings.jpeg" alt="earing" height="150" width="150" style="border-radius: 50%">
-        <h6 class="fw-normal">Tsilver turquoise earings</h6>
+        <img src="images/earrings.jpeg" alt="earing" height="250" width="250" style="border-radius: 50%">
+        <h6 class="fw-normal text-white">Silver Turquoise Earings</h6>
 
         <p><a class="btn btn-secondary" href="product.html">View details »</a></p>
       </div>
       <div class="col-lg-4">
-        <img src="images/prayer-flag.webp" alt="prayer-flag" height="150" width="150" style="border-radius: 50%">
-        <h6 class="fw-normal">Buddhist Prayer Wheel</h6>
+        <img src="images/prayer-flag.webp" alt="prayer-flag" height="250" width="250" style="border-radius: 50%">
+        <h6 class="fw-normal text-white">Buddhist Prayer Wheel</h6>
 
-        <p><a class="btn btn-secondary" href="product.html">View details »</a></p>
+        <p><a class="btn btn-secondary href="product.html">View details »</a></p>
+      </div>
+    </div>
+    <hr>
+    <div class="new">
+        
+
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" >
+            <img src="images/puppets.jpeg" class="d-block w-100" alt="1st image">
+
+          </div>
+          <div class="carousel-item">
+            <img src="images/shaouraav-shreshtha-_P5SJb7WJQY-unsplash.jpg" class="d-block w-100" alt="2nd image">
+          </div>
+          <div class="carousel-item">
+            <img src="images/nepal.jpeg" class="d-block w-100" alt="3rd image">
+          </div>
+          <div class="carousel-item">
+            <img src="images/rohan-reddy-Y3u0xBXhGtY-unsplash.jpg" class="d-block w-100" alt="4th image">
+          </div>
+          <div class="carousel-item">
+            <img src="images/tim-van-kempen-mpYKQK3GzSE-unsplash.jpg" class="d-block w-100" alt="5th image">
+          </div>
+  
+       
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden"></span>
+        </button>
       </div>
     </div>
     <hr>
@@ -140,7 +152,7 @@
         <div class="col-md-7 order-md-2">
           <h1 class="featurette-heading fw-normal lh-1 text-center"><u>
               About Us </u></h1>
-          <div class="lead"><h4> Himalayan society is an online market for Nepalese handicrafts bringing you a pleasant online  shopping
+          <div class="lead text-white"><h4> Himalayan society is an online market for Nepalese handicrafts bringing you a pleasant online  shopping
             experience with; carefully selected Nepalese handicrafts, speed delivery, easy-to-navigate, unbiased website
             reviews, and highlighted time and money-saving deals.The Himalayan society selects and places products
             carefully to give you a large selection of Nepalese Handicrafts at competitive and affordable prices. We
@@ -158,8 +170,8 @@
       <hr>
       <div class="row featurette">
         <div class="col-md-7">
-          <h1 class="featurette-heading fw-normal lh-1 text-center "><u>History of Nepal handicraft </u></h1>
-          <div class="lead">
+          <h1 class="featurette-heading fw-normal lh-1 text-center "><u>History of Nepal Handicraft </u></h1>
+          <div class="lead text-white">
           <h4> Nepal, the production of handicraft is an age-old practice. Novel handicraft is also developed in harmony
             with changing market taste. For the last 25–30 years, export of handicrafts has been growing. The
             development of handicraft helps the conservation of national heritage and culture of country; which in
@@ -180,12 +192,15 @@
         </div>
       </div>
       <hr>
+   
+      
+        <hr>
       <div class="row featurette">
         <div class="col-md-7">
-          <h1 class="featurette-heading fw-normal lh-1 text-center "><u> Here you will find unique Nepalese handicrafts:
+          <h1 class="featurette-heading fw-normal lh-1 text-center text-black "><u> Here you will find unique Nepalese Handicrafts:
             </u></h1>
            
-          <ul class="list-items" style="list-style-type:square;">
+          <ul class="list-items text-white" style="list-style-type:square;">
            
               <li><h4>Thanka / Thangka</h4></li>
               <li><h4>Khukuri</h4></li>
@@ -203,17 +218,18 @@
         </div>
       </div>
   </div>
-
+</div>
+</div>
   <footer class="container">
     <div class="float-end"><a href="#">Back to top</a></div>
     <div>© 2020–2022 Himalayan Society, Inc. · <a href="">Privacy</a> · <a href="#">Terms</a></div>
   </footer>
-</div>
+ 
 
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
-    crossorigin="anonymous"></script>
+  <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
 </body>
-
 </html>
