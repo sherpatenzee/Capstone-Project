@@ -4,7 +4,7 @@ This is my capstone project for week 2 of Pluraslight Web develpoment course.
 
 Title: The Himalayan Society
 
-Intro : This is my personal E-commerce website that I built using HTML, CSS and bootstrap framework. Here I sell handicrafts made in the himalayas of Nepal. 
+Intro : This is my personal E-commerce website that I built using HTML, CSS and bootstrap framework. Here I sell handicrafts made in the himalayas of Nepal. This website holds 6 html documents and 2 css stylesheets. 
 
 Technoloigies: HTML 5 ,CSS 3 and bootstrap  5.2.
 
@@ -15,6 +15,8 @@ some products and Nepal itself for users to know what exactly they will find her
 
 Product page: This page displays 9 products that are available to buy. This page includes card component from bootstrap to display the product and its discription
 with an add to cart button for users easy access. 
+
+Contact Us page: This page holds a form for users to contact the company with their email and their desired message in the message box.
 
 Login Page: This is a log in page for returning customers for easy access to their past orders, saved addresses and payments methods. Thispage includes a simple bootstrap login form page.
 It also has a image of a monestary in the himalayas to give it a style. Along with the nav bars i also added the hyperlink to the register here button for new users.
@@ -29,7 +31,10 @@ It has a display of the cart and the items with their prices.
 Images included in the website.
 
 Background images
-![manang](https://user-images.githubusercontent.com/97621619/195360957-94bfa890-f6c9-46b6-b2f0-657525def73d.jpg)
+![depositphotos_235289568-stock-photo-colorful-carved-wooden-masks-handicrafts](https://user-images.githubusercontent.com/97621619/195679612-0a876181-77a0-4fa4-8664-3c8474b819b3.jpeg)
+![max-fuchs-Nm6ojlDO-5c-unsplash](https://user-images.githubusercontent.com/97621619/195679750-651bb319-ea94-4069-a131-702e54c22fab.jpg)
+
+
 
 Carasoul Images
 
