@@ -2,7 +2,7 @@
 
 @media (max-width: 991px) {
   .navbar-scroll {
-    background-color: #fff;
+    background-color: rgb(255, 254, 254);
   }
      
   .navbar-scroll .navbar-brand,
@@ -60,8 +60,8 @@
 }
 
 .display-1 {
-  font-weight: 500 !important;
-  letter-spacing: 40px;
+  font-weight: 600 !important;
+  letter-spacing: 30px;
 }
 
 @media (min-width: 1600px) {
@@ -82,4 +82,9 @@ background: rgba(0, 0, 0, 0.521);
   background: rgba(0, 0, 0, 0.329);
  opacity: 200%;
  border-radius: 150px;
+}
+@media (max-width : 768px){
+  #intro {
+    min-height: 30vh;
+  }
 }
