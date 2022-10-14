@@ -44,3 +44,7 @@
  opacity: 200%;
  border-radius: 150px;
 }
+.bg-image{
+  background-repeat: no-repeat;
+  background-size: cover;
+}
